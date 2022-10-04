@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">  
+    <link rel="stylesheet" type="text/css" href="/stylesheets/header.css">  
+    <link rel="stylesheet" type="text/css" href="/stylesheets/footer.css">  
+  </head>
+  <body>
+    <div class="container mx-auto">
+      {{>header}}
+      {{{body}}}
+      {{>footer}}
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,25 @@
+.Footer {
+  display: flex;
+  padding: 1rem;
+  border-top: 1px solid #dcdcdc;
+  justify-content: space-between;
+  background: #2c3e50;
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+  position:fixed;
+  left: 0px;
+  right: 0px;
+  bottom:0px;
+}
+.Footer .footer-links {
+  display: flex;
+  flex-direction: row;
+}
+.Footer .footer-link {
+  text-decoration: underline;
+  margin: 0 1rem;
+}
+.Footer .footer-link:hover {
+  text-decoration: none;
+}
